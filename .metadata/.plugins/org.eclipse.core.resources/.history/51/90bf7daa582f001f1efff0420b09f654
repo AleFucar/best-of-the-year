@@ -1,0 +1,19 @@
+package it.fucarino.bestofyear.restcontroller;
+
+import java.security.PublicKey;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import ch.qos.logback.core.model.Model;
+
+@Controller
+public class ControllerName {
+
+	@GetMapping
+	public String daiNome(@RequestParam(name = "nome")String nome, Model model) {
+		return"";
+	}
+
+}
